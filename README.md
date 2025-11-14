@@ -1,4 +1,4 @@
-# ExpenseBoyAge 💼
+# ExpenseVoyAge 💼
 
 A dynamic travel expense management web system built using **PHP**, **Bootstrap 5**, and **MySQL**.
 
