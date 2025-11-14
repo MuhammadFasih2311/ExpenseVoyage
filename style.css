@@ -1,0 +1,399 @@
+/* --- NAVBAR --- */
+.custom-navbar {
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+  padding: 15px 0;
+}
+.custom-navbar .navbar-brand {
+  font-size: 1.4rem;
+  color: white !important;
+}
+.custom-navbar .navbar-brand i {
+  color: white;
+}
+.custom-navbar .nav-link {
+  font-weight: 500;
+  color: white !important;
+  transition: color 0.3s ease;
+}
+.custom-navbar .nav-link:hover {
+  color: #ffd700 !important;
+}
+.btn-gradient{
+  background: rgb(240, 239, 239);
+  color: #0d6efd !important;
+  border-radius: 15%;
+  font-weight: 500;
+  padding: 6px 18px;
+  transition: color 0.3s ease;
+}
+.btn-gradient:hover {
+  background: #ffd700;
+  color: #333 !important;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+  color: white;
+}
+.footer h5, .footer h6 {
+  color: white;
+  font-weight: 600;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer a:hover {
+  color: #ffd700;
+}
+.footer .social-icons a {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.footer .social-icons a:hover {
+  color: #ffd700;
+  transform: translateY(-3px);
+}
+/* HERO SECTION */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(8, 85, 202, 0.6), rgba(255, 122, 0, 0.6)), 
+              url('images/hero-back.jpg') center/cover no-repeat;
+}
+.hero-section h1 {
+  font-size: 3rem;
+}
+.hero-search {
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.hero-slide {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-slide .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(rgba(8,85,202,0.5), rgba(255,122,0,0.5));
+}
+.hero-search {
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Featured Trips */
+.trip-card {
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+  background: white;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.trip-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.trip-image {
+  position: relative;
+  overflow: hidden;
+}
+.trip-image img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.trip-card:hover img {
+  transform: scale(1.1);
+}
+
+.price-tag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.trip-info h5 {
+  font-weight: bold;
+  color: #0855ca;
+}
+
+/* How It Works Section */
+.how-it-works .icon {
+  font-size: 2.5rem;
+  color: white;
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+.step-card {
+  background: white;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Testimonials Background */
+.testimonials {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+.testimonials .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.testimonials .testimonial-card {
+  max-width: 600px;
+  background: white;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+.testimonials .testimonial-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 3px solid #ff7a00;
+}
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+}
+.cta-section .btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+}
+.cta-section .btn:hover {
+  transform: translateY(-2px);
+  transition: 0.3s ease;
+}
+/* Section Title Underline */
+.section-title {
+  position: relative;
+}
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* Blog Card Styling */
+.blog-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Blog Image Hover Effect */
+.blog-img {
+  overflow: hidden;
+}
+.blog-img img {
+  transition: transform 0.4s ease;
+}
+.blog-card:hover .blog-img img {
+  transform: scale(1.08);
+}
+
+/* Gradient Button */
+.btn-grad {
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.btn-grad:hover {
+  background: linear-gradient(90deg, #ff7a00, #0855ca);
+  color: #fff;
+  transform: translateY(-2px);
+}
+/* images set */
+.blog-card img {
+  width: 100%;
+  height: 250px; /* Aap apni requirement ke mutabiq adjust kar sakte hain */
+  object-fit: cover;
+  border-top-left-radius: 0.375rem; /* Bootstrap rounded-top match karne ke liye */
+  border-top-right-radius: 0.375rem;
+}
+.blog-detail-image {
+  width: 100%;
+  height: 400px; /* Apne design ke hisaab se adjust karein */
+  object-fit: cover;
+  border-radius: 0.375rem; /* Bootstrap rounded ka match */
+}
+
+                  /* ABOUT US PAGE CSS */
+
+.about-hero h1 {
+  font-size: 3rem;
+}
+.about-hero p {
+  font-size: 1.2rem;
+}
+
+.section-heading {
+  position: relative;
+  display: inline-block;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 15%;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+  border-radius: 2px;
+}
+
+.story-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.story-image-wrapper:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.team-card {
+  background: linear-gradient(135deg, rgba(8, 85, 202, 0.9), rgba(255, 122, 0, 0.9));
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+  backdrop-filter: blur(6px);
+}
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+.team-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.team-card:hover .team-img img {
+  transform: scale(1.08);
+}
+.team-card h5 {
+  color: white;
+}
+.team-card small {
+  color: #f5f5f5;
+}
+
+/* Remove Bootstrap default arrow */
+.custom-accordion .accordion-button::after {
+  display: none !important;
+}
+
+/* Accordion button style */
+.custom-accordion .accordion-button {
+  background: #f8f9fa;
+  color: #333;
+  padding: 15px 20px;
+  font-size: 1rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  background: linear-gradient(45deg, #0855ca, #ff7a00);
+  color: #fff;
+}
+
+.custom-accordion .accordion-body {
+  background: #fff;
+  padding: 20px;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Icon style */
+.custom-accordion .icon {
+  font-weight: bold;
+  font-size: 1.3rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: #333;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) .icon {
+  color: #fff;
+}
+
+.custom-btn{
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #208bc9; 
+    border-radius: 50%;
+    opacity: 0.1;
+    transition: 0.3s ease;
+}
+.custom-btn:hover {
+    background-color: #8e50f1; 
+    opacity: 0.3;
+  }
+
+  .card-img-top {
+    height: 250px; 
+    object-fit: cover; 
+  }
+
+  /* Hover effect on cards */
+  .card:hover {
+    transform: translateY(-8px);
+    transition: 0.3s ease;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  }
+  

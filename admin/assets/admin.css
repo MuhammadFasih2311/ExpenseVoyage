@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+}
+
+.container-fluid {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.sidebar {
+  min-height: 100%;
+}
+
+/* KPI Cards */
+.card-kpi {
+  border:0;
+  border-radius:18px;
+  padding:1.2rem;
+  background:rgba(255,255,255,0.9);
+  backdrop-filter: blur(12px);
+  box-shadow:0 8px 24px rgba(0,0,0,.15);
+  transition: all .3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.card-kpi::before {
+  content:"";
+  position:absolute;
+  top:-30%; right:-30%;
+  width:120px; height:120px;
+  background: radial-gradient(circle at center, rgba(13,110,253,0.2), transparent);
+  border-radius:50%;
+}
+.card-kpi:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow:0 16px 40px rgba(0,0,0,.25);
+}
+.card-kpi h6 {
+  font-weight:600;
+  margin-top:.6rem;
+  color:#334155;
+}
+.card-kpi span {
+  font-size:1.8rem;
+  font-weight:700;
+  color:#0f172a;
+}
+
+/* KPI Icon */
+.kpi-icon {
+  width:56px;
+  height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:14px;
+  font-size:1.5rem;
+  color:#fff;
+  box-shadow:0 6px 16px rgba(0,0,0,.2);
+  background:linear-gradient(135deg, var(--primary), var(--accent));
+  transition:.3s ease;
+}
+.card-kpi:hover .kpi-icon {
+  transform: rotate(8deg) scale(1.05);
+}
+.btn-gradient{
+  background: rgb(240, 239, 239);
+  color: #0d6efd !important;
+  border-radius: 15%;
+  font-weight: 500;
+  padding: 6px 18px;
+  transition: color 0.3s ease;
+}
+.btn-gradient:hover {
+  background: #ffd700 !important;;
+  color: #333 !important;
+}
+.btn-grad {
+  background: linear-gradient(90deg, #0855ca, #ff7a00);
+  color: #fff !important;;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.btn-grad:hover {
+  background: linear-gradient(90deg, #ff7a00, #0855ca);
+  color: #fff !important;;
+  transform: translateY(-2px);
+}
+html, body {
+  overflow-x: hidden;
+}
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}

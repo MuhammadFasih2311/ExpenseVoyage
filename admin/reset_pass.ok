@@ -1,0 +1,23 @@
+<?php
+require 'connect.php'; // database connection file
+
+$new_password = 'admin12345';
+$username = 'admin';
+
+// Hash the password using bcrypt
+$hashed_password = password_hash($new_password, PASSWORD_DEFAULT);
+
+$sql = "UPDATE admin SET password = ? WHERE username = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("ss", $hashed_password, $username);
+$stmt->execute();
+
+if($stmt->affected_rows > 0){
+    echo "Password updated successfully (hashed)!";
+} else {
+    echo "No changes made.";
+}
+
+$stmt->close();
+$conn->close();
+?>
