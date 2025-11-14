@@ -1,16 +1,26 @@
-# ExpenseBoyAge
+# ExpenseBoyAge 💼
 
-A travel expense management web system for trips and itineraries. Built using **HTML, CSS, Bootstrap, PHP, and MySQL**.  
+A dynamic travel expense management web system built using **PHP**, **Bootstrap 5**, and **MySQL**.
 
-## Features
-- Dashboard for trip management
-- Expense tracking with add/edit/delete
+## 🌐 Live Demo
+[https://expensevoyage.kesug.com](https://expensevoyage.kesug.com)
+
+## ✨ Features
+- Dashboard for trip and expense management
 - User login and signup system
+- Add/Edit/Delete expenses
+- Admin panel for managing users and trips
 - Responsive design with Bootstrap 5
 
-## Tech Stack
-- HTML, CSS, Bootstrap 5, PHP, MySQL
+## ⚙️ Tech Stack
+- PHP
+- MySQL
+- Bootstrap 5
+- JavaScript
 
-## Notes
-- Database file is not included.
-- Requires PHP server for full functionality.
+## 🛡️ Notes
+- Database file is **not included** for security reasons.
+
+---
+
+👨‍💻 Developed by [Muhammad Fasih](https://fasihwebs.wuaze.com)
